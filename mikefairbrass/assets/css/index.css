@@ -435,56 +435,32 @@ body {
     min-width: 147px; }
 
   .bubbleOne {
-    top: 115px;
-    left: 261px;
-    min-height: 147px;
-    min-width: 147px; }
-
-  .bubbleThree {
-    top: 441px;
-    left: 55px;
+    top: 80px;
+    left: 320px;
     min-height: 147px;
     min-width: 147px; }
 
   .bubbleTwo {
-    top: 276px;
-    left: 70px;
+    top: 195px;
+    left: 195px;
     min-height: 147px;
     min-width: 147px; }
 
-  .bubbleSix {
-    top: 387px;
-    left: 209px;
-    min-height: 112px;
-    min-width: 112px; }
+  .bubbleThree {
+    top: 360px;
+    left: 175px;
+    min-height: 147px;
+    min-width: 147px; }
+
+  .bubbleFour {
+    top: 260px;
+    left: 40px;
+    min-height: 147px;
+    min-width: 147px; }
 
   .bubbleEmail {
     top: 670px;
     left: 605px;
-    min-height: 88px;
-    min-width: 88px; }
-
-  .bubbleFour {
-    top: 128px;
-    left: 422px;
-    min-height: 88px;
-    min-width: 88px; }
-
-  .bubbleEight {
-    top: 188px;
-    left: 165px;
-    min-height: 88px;
-    min-width: 88px; }
-
-  .bubbleNine {
-    top: 276px;
-    left: 235px;
-    min-height: 88px;
-    min-width: 88px; }
-
-  .bubbleSeven {
-    top: 150px;
-    left: 520px;
     min-height: 88px;
     min-width: 88px; }
 
@@ -493,12 +469,6 @@ body {
     left: 530px;
     min-height: 60px;
     min-width: 60px; }
-
-  .bubbleFive {
-    top: 605px;
-    left: 60px;
-    min-height: 88px;
-    min-width: 88px; }
 
   .logo {
     display: inline-block;
@@ -594,56 +564,32 @@ body {
     min-width: 132px; }
 
   .bubbleOne {
-    top: 340px;
-    left: 173px;
-    min-height: 132px;
-    min-width: 132px; }
-
-  .bubbleThree {
-    top: 526px;
-    left: 466px;
+    top: 290px;
+    left: 140px;
     min-height: 132px;
     min-width: 132px; }
 
   .bubbleTwo {
-    top: 512px;
-    left: 317px;
+    top: 405px;
+    left: 240px;
     min-height: 132px;
     min-width: 132px; }
 
-  .bubbleSix {
-    top: 419px;
-    left: 417px;
-    min-height: 101px;
-    min-width: 101px; }
+  .bubbleThree {
+    top: 424px;
+    left: 390px;
+    min-height: 132px;
+    min-width: 132px; }
+
+  .bubbleFour {
+    top: 547px;
+    left: 295px;
+    min-height: 132px;
+    min-width: 132px; }
 
   .bubbleEmail {
     top: 85px;
     left: 672px;
-    min-height: 78px;
-    min-width: 78px; }
-
-  .bubbleSeven {
-    top: 249px;
-    left: 185px;
-    min-height: 78px;
-    min-width: 78px; }
-
-  .bubbleEight {
-    top: 480px;
-    left: 240px;
-    min-height: 78px;
-    min-width: 78px; }
-
-  .bubbleNine {
-    top: 418px;
-    left: 318px;
-    min-height: 78px;
-    min-width: 78px; }
-
-  .bubbleFour {
-    top: 68px;
-    left: 457px;
     min-height: 78px;
     min-width: 78px; }
 
@@ -652,12 +598,6 @@ body {
     left: 678px;
     min-height: 60px;
     min-width: 60px; }
-
-  .bubbleFive {
-    top: 578px;
-    left: 612px;
-    min-height: 78px;
-    min-width: 78px; }
 
   .logo {
     display: inline-block;
@@ -753,58 +693,28 @@ body {
     min-width: 184px; }
 
   .bubbleOne {
-    top: 398px;
-    left: 170px;
+    top: 330px;
+    left: 126px;
     min-height: 184px;
     min-width: 184px; }
 
   .bubbleTwo {
-    top: 636px;
-    left: 370px;
+    top: 484px;
+    left: 270px;
     min-height: 184px;
     min-width: 184px; }
 
   .bubbleThree {
-    top: 656px;
-    left: 577px;
+    top: 508px;
+    left: 476px;
     min-height: 184px;
     min-width: 184px; }
 
   .bubbleFour {
-    top: 19px;
-    left: 563px;
-    min-height: 110px;
-    min-width: 110px; }
-
-  .bubbleFive {
-    top: 724px;
-    left: 780px;
-    min-height: 110px;
-    min-width: 110px; }
-
-  .bubbleSix {
-    top: 508px;
-    left: 510px;
-    min-height: 139px;
-    min-width: 139px; }
-
-  .bubbleSeven {
-    top: 271px;
-    left: 185px;
-    min-height: 110px;
-    min-width: 110px; }
-
-  .bubbleEight {
-    top: 592px;
-    left: 262px;
-    min-height: 110px;
-    min-width: 110px; }
-
-  .bubbleNine {
-    top: 505px;
-    left: 370px;
-    min-height: 110px;
-    min-width: 110px; }
+    top: 680px;
+    left: 355px;
+    min-height: 184px;
+    min-width: 184px; }
 
   .bubbleEmail {
     top: 42px;
