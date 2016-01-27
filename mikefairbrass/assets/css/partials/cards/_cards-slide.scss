@@ -1,6 +1,6 @@
 // ====================================================================================
 
-// PAGE SLIDE =====================================
+// CARD SLIDE =====================================
 
 // http://codepen.io/jeffersonlam/pen/aOjEWK
 
@@ -31,9 +31,6 @@ $nav-width: 192px;
   content: url("../images/global/arrow-right.png");
   background-repeat: no-repeat;
   width:40px;
-  // clear:both;
-  // -webkit-transition-duration: .3s; /* Safari */
-  // transition-duration: .3s;
 
   &:hover{
     background-color: $Profile;
@@ -62,8 +59,6 @@ $nav-width: 192px;
     width:40px;
     direction: rtl;
     white-space: nowrap;
-    // -webkit-transition-duration: .3s; /* Safari */
-    // transition-duration: .3s;
 
 
     .sidenav-active & {
@@ -74,7 +69,7 @@ $nav-width: 192px;
     font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
     font-size: 1.25em;
     font-weight:300;
-    color:$Grey07;
+    color:white;
     }
    
   }
@@ -82,7 +77,7 @@ $nav-width: 192px;
 //Sidenav & its contents -------------------------
 
 nav {
-  // background-color: is set to random on the html page;
+  background-color: $Grey01;
   display: inline-block;
   position: fixed;
   // height: 100vh;
