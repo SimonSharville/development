@@ -111,7 +111,7 @@ nav ul {
     text-decoration: none;
     text-align: center;
     color: white;
-    padding: 7px 0 3px 0;
+    padding: 5px 0 5px 0;
   }
   a:visited {
     color: white;
@@ -142,7 +142,11 @@ nav footer {
       padding: 5px;
       font-weight:400;
       color:white;
+      &:hover{
+      color:$Orange;
     }
+    }
+    
   }
 
 

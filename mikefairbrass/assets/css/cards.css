@@ -94,37 +94,6 @@ h2 {
 strong {
   font-weight: 700; }
 
-#pageTitle h1 {
-  font-size: 4em;
-  color: white; }
-
-.intro {
-  padding-bottom: 50px; }
-
-.quote {
-  text-indent: -0.2em;
-  margin-left: 0px; }
-
-.quotee {
-  font-weight: 700;
-  margin-top: -0.4em;
-  padding-bottom: 1.5em; }
-
-.contact h3 {
-  padding-bottom: 0.25em; }
-.contact p {
-  padding-bottom: 0em; }
-
-a:link {
-  color: #2F2B2D;
-  text-decoration: none; }
-
-a:visited {
-  color: #2F2B2D; }
-
-a:hover {
-  color: #00B2B2; }
-
 html, body {
   margin: 0; }
 
