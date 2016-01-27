@@ -127,43 +127,43 @@ box-shadow: 0px 20px 2px -5px rgba(0,0,0,0.05), 0px 2px 2px 5px rgba(0,0,0,0.05)
 
 // Download Icons ==================================================
 
-// .DL{
-// }
+.DL{
+}
 
-// .DLCard{
-//   display:                -webkit-flex;
-//   display:                  flex;
-//   -webkit-justify-content:  center;
-//   justify-content:          center;
-//   -webkit-align-items:      center;
-//   align-items:              center;
-//   flex-wrap:                wrap;
-// }
+.DLCard{
+  display:                -webkit-flex;
+  display:                  flex;
+  -webkit-justify-content:  center;
+  justify-content:          center;
+  -webkit-align-items:      center;
+  align-items:              center;
+  flex-wrap:                wrap;
+}
 
-// .DLIcon{
-//   display:                -webkit-flex;
-//   display:                  flex;
-//   -webkit-justify-content:  center;
-//   justify-content:          center;
-//   -webkit-align-items:      center;
-//   align-items:              center;
-//   flex-wrap:                wrap;
+.DLIcon{
+  display:                -webkit-flex;
+  display:                  flex;
+  -webkit-justify-content:  center;
+  justify-content:          center;
+  -webkit-align-items:      center;
+  align-items:              center;
+  flex-wrap:                wrap;
 
-//   background-color:$Grey08;
-//   background-image: url("../../assets/downloads/icon-arrowDown.png");
-//   background-size: 100px 100px;
-//   background-repeat: no-repeat;
-//   border-radius:50%;
-//   height:100px;
-//   width:100px;
-//   font-family: 'LightUltraCn', Helvetica, Arial, sans-serif;
-//   font-size: 1.5em;
-//   margin:3px;
-//   &:hover{
-//     color:$Grey01;
-//     background-color:$Orange;
-//   }
-// }
+  background-color:$Grey08;
+  background-image: url("../images/global/arrow-down.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  border-radius:50%;
+  height:100px;
+  width:100px;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin:3px;
+  &:hover{
+    color:$Grey01;
+    background-color:$Orange;
+  }
+}
 
 
 // Dividers =======================================
@@ -203,8 +203,8 @@ box-shadow: 0px 20px 2px -5px rgba(0,0,0,0.05), 0px 2px 2px 5px rgba(0,0,0,0.05)
 // Submenu ===============================================
 
 #submenu{
-  margin-top:50px;
-  margin-bottom:0px;
+  margin-top:20px;
+  margin-bottom:20px;
   text-align:left;
 }
 
@@ -224,7 +224,7 @@ box-shadow: 0px 20px 2px -5px rgba(0,0,0,0.05), 0px 2px 2px 5px rgba(0,0,0,0.05)
   margin-bottom:5px;
   background-color:$Grey08;
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
 
   &:link{}
   &:visited{}

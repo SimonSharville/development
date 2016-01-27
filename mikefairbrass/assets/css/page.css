@@ -233,6 +233,37 @@ aside {
   -moz-box-shadow: 0px 20px 2px -5px rgba(0, 0, 0, 0.05), 0px 2px 2px 5px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 20px 2px -5px rgba(0, 0, 0, 0.05), 0px 2px 2px 5px rgba(0, 0, 0, 0.05); }
 
+.DLCard {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.DLIcon {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #D7D2D2;
+  background-image: url("../images/global/arrow-down.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin: 3px; }
+  .DLIcon:hover {
+    color: #2F2B2D;
+    background-color: #DC7321; }
+
 #divide-grey-full {
   min-height: 6px;
   min-width: 100%;
@@ -260,8 +291,8 @@ aside {
   margin: 0px 0px 0px -3px; }
 
 #submenu {
-  margin-top: 50px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: left; }
 
 #submenu li {
@@ -277,7 +308,7 @@ aside {
   margin-bottom: 5px;
   background-color: #D7D2D2;
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  font-size: 1.5em; }
+  font-size: 1em; }
   #submenu li:hover {
     color: #2F2B2D;
     background-color: #DC7321; }
