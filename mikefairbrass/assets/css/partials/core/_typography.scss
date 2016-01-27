@@ -8,12 +8,14 @@ h1 {
   letter-spacing:-2px;
   color: $Profile;
   font-size: 3em;
+  margin-left:-3px!IMPORTANT;
 }
 
 h2 {
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-size: 2em;
   font-weight:400;
+  margin-left:-1px!IMPORTANT;
 }
 
 h3 {
@@ -26,7 +28,7 @@ h3 {
 h4 {
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-size: 1em;
-  font-weight:400;
+  font-weight:700;
   padding-top: 0.4em;
 }
 

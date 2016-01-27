@@ -101,9 +101,8 @@ nav .logo {
     }
 }
 
-
-
-nav ul a:link {
+nav ul {
+  a:link {
     font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
     font-size: 1.25em;
     line-height: 1em;
@@ -113,22 +112,22 @@ nav ul a:link {
     text-align: center;
     color: white;
     padding: 7px 0 3px 0;
-    
-    &:visited {
-      color: white;
-    }
-    &:hover {
-      background-color: black;
-      background:rgba(0,0,0,0.2);
-    }
   }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: white;
+    background-color: black;
+    background:rgba(0,0,0,0.2);
+  }
+}
 
 nav .active{
   color:white;
   background-color: black;
   background:rgba(0,0,0,0.5);
 }
-
 
 nav footer {
     width: $nav-width;

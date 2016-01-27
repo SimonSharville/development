@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>About</title>
-    <meta name="description" content="Description Here">
-
-<meta name="keywords" content="metatags, tags">
-
-<link rel="icon" type="image/ico" href="assets/images/profile/favicon.ico"/>
+    <!-- @import "meta.html" -->
 
     <!-- Styles -->
     <link href="assets/css/page.css" rel="stylesheet">  
@@ -19,7 +15,7 @@
 
   </head>
 
-  <body onload="return ran_col()" id="aboutPage">
+  <body onload="return ran_col()" id="pageOne">
 
     <div class="hamburger" id="hamburger">
       <div class="openSidebar"></div>
@@ -27,94 +23,72 @@
     </div>
 
     <!-- Import the Navigation Sidebar -->
-        <nav id="sidebar">
-      <div class="logo">
-        <a href="index.html"><img src="assets/images/profile/profilePhoto.jpg"/></a>
-      </div>
-      <div class="nav">
-        <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="webdesign.html">Page One</a></li>
-          <li><a href="#">Page Two</a></li>
-          <li><a href="#">Page Three</a></li>
-          <li><a href="#">Page Four</a></li>
-          <div id="divide-white"></div>
-          <li><a href="#">Page Five</a></li>
-          <li><a href="#">Page Six</a></li>
-          <li><a href="#">Page Seven</a></li>
-          <li><a href="#">Page Eight</a></li>
-          <li><a href="#">Page Nine</a></li>
-        </ul>
-      </div>
-      <footer>
-        <div id="divide-footer"></div>
-        <a href="http://www.simonsharville.co.uk" target="new"><p>Site design and build</br>Simon Sharville</p></a>
-      </footer>
-    </nav>
+    <!-- @import "menu.html" -->
+
 
     <div class="main">
-      <a href="#aboutPage" class="topButton smoothScroll"></a>
+      <a href="#pageOne" class="topButton smoothScroll"></a>
 
       <section>
         <header>
         <div id="pageTitle">
-          <h1>Profile</h1>
+          <h1>Page title</h1>
         </div>
-                
-        <div id="sharelinks">
-            <a href="mailto:enquiries@simonsharville.co.uk?subject=Design enquiry" id="email" ></a>
-        </div><!-- END social -->      </header>
-      </section>
-
-
-      <section>
-        <article class="profileHeader">
-          <img class="profileImage" src="assets/images/profile/profilePhoto.jpg"/>
-        </article>
+        <!-- @import "shareLinks.html" -->
+      </header>
       </section>
 
       <section>
         <article>
-          <h1>About</h1>
+          <h1>Headline 1 style</h1>
+          <h2>Headline 2 style</h2>
+          <h3>Headline 3 style</h3>
+          <h4>Headline 4 style</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate scelerisque interdum. Donec accumsan eget diam pharetra dignissim. Vestibulum non ligula molestie, viverra ligula nec, cursus lectus. Nullam sit amet ex congue, blandit odio nec, rutrum diam. Morbi nisi lectus, mollis sed mi vel, commodo dignissim orci. Vivamus a dolor massa. Proin bibendum tempus lacus, eu egestas magna.</p>
 
           <p>Mauris eu ex auctor, suscipit lacus in, pharetra neque. Praesent semper mauris non varius ullamcorper. Praesent accumsan cursus porttitor. Cras pulvinar, massa non ultrices auctor, lorem nunc facilisis quam, vel lacinia nunc urna scelerisque dolor. Aliquam erat volutpat. Praesent tincidunt neque nec urna vehicula interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          <img src="assets/images/temp/tempImage01.jpg"/>
+          <aside> Photo caption</aside>
         </article>
       </section>
 
       <section>
-      <div id="divide-grey"></div>
-      </section>
-
-      <section>
-        <article class="contact">
-          <h1>Contact</h1>
-          <p>For any work related queries, please email me at: </p>
-            <h3><a href="mailto:enquiries@simonsharville.co.uk">enquiries@simonsharville.co.uk</a></h3>
-          
-          <p>call</p> 
-          <h3><a href="tel:+442032897438">020 3289 7438</a></h3>
-
-          <p>or contact me through</p> 
-          <h3><a href="https://www.linkedin.com/in/simonsharville" target="new">LinkedIn</a></h3>
-        </article>
-      </section>
-
-
-<section>
       <div id="divide-grey"></div>
       </section>
 
       <section>
         <article>
-          <h1>Testimonials</h1>
-          <p class="quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate scelerisque interdum. Donec accumsan eget diam pharetra dignissim. Vestibulum non ligula molestie, viverra ligula nec, cursus lectus. Nullam sit amet ex congue, blandit odio nec, rutrum diam. Morbi nisi lectus, mollis sed mi vel, commodo dignissim orci. Vivamus a dolor massa. Proin bibendum tempus lacus, eu egestas magna.”</p>
-          <p class="quotee">Name - Company</p>
+          <h1>Headline 1 style</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate scelerisque interdum. Donec accumsan eget diam pharetra dignissim. Vestibulum non ligula molestie, viverra ligula nec, cursus lectus. Nullam sit amet ex congue, blandit odio nec, rutrum diam. Morbi nisi lectus, mollis sed mi vel, commodo dignissim orci. Vivamus a dolor massa. Proin bibendum tempus lacus, eu egestas magna.</p>
 
-          <p class="quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate scelerisque interdum. Donec accumsan eget diam pharetra dignissim. Vestibulum non ligula molestie, viverra ligula nec, cursus lectus. Nullam sit amet ex congue, blandit odio nec, rutrum diam. Morbi nisi lectus, mollis sed mi vel, commodo dignissim orci. Vivamus a dolor massa. Proin bibendum tempus lacus, eu egestas magna.”</p>
-          <p class="quotee">Name - Company</p>
+          <h2>Headline 2 style</h2>
+          <p>Mauris eu ex auctor, suscipit lacus in, pharetra neque. Praesent semper mauris non varius ullamcorper. Praesent accumsan cursus porttitor. Cras pulvinar, massa non ultrices auctor, lorem nunc facilisis quam, vel lacinia nunc urna scelerisque dolor. Aliquam erat volutpat. Praesent tincidunt neque nec urna vehicula interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          <img src="assets/images/temp/tempImage02.jpg"/>
+          <aside> Photo caption</aside>
         </article>
       </section>
+
+      <section>
+      <div id="divide-grey"></div>
+      </section>
+
+      <section>
+        <article>
+          <h1>Headline 1 style</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate scelerisque interdum. Donec accumsan eget diam pharetra dignissim. Vestibulum non ligula molestie, viverra ligula nec, cursus lectus. Nullam sit amet ex congue, blandit odio nec, rutrum diam. Morbi nisi lectus, mollis sed mi vel, commodo dignissim orci. Vivamus a dolor massa. Proin bibendum tempus lacus, eu egestas magna.</p>
+
+          <h3>Headline 3 style</h3>
+          <p>Mauris eu ex auctor, suscipit lacus in, pharetra neque. Praesent semper mauris non varius ullamcorper. Praesent accumsan cursus porttitor. Cras pulvinar, massa non ultrices auctor, lorem nunc facilisis quam, vel lacinia nunc urna scelerisque dolor. Aliquam erat volutpat. Praesent tincidunt neque nec urna vehicula interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+
+          <h4>Headline 4 style</h4>
+          <p>Mauris eu ex auctor, suscipit lacus in, pharetra neque. Praesent semper mauris non varius ullamcorper. Praesent accumsan cursus porttitor. Cras pulvinar, massa non ultrices auctor, lorem nunc facilisis quam, vel lacinia nunc urna scelerisque dolor. Aliquam erat volutpat. Praesent tincidunt neque nec urna vehicula interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          <img src="assets/images/temp/tempImage03.jpg"/>
+          <aside> Photo caption</aside>
+        </article>
+      </section>
+
+
+
 
 
 
@@ -139,7 +113,7 @@
     <script type="text/javascript" src="assets/js/slide.js"></script>
 
     <!-- http://www.paulund.co.uk/how-to-create-an-animated-scroll-to-top-with-jquery -->
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+    <script type="text/javascript" src="assets/js/smoothScroll.js"></script>
 
     <!-- http://webdesignerhut.com/active-class-navigation-menu/ -->
     <script type="text/javascript" src="assets/js/active.js"></script>
