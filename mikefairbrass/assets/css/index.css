@@ -120,48 +120,101 @@ body {
   transform: scale(1); }
 
 .bubbleLink:hover {
-  background-color: #00B2B2;
+  background-color: #00b2bb;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05); }
 
+.bubbleLogo {
+  background-image: url("../images/profile/logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .bubbleLogo h1 {
+    visibility: hidden; }
+
+.bubbleConsultancy {
+  background-image: url("../images/profile/consultancy.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .bubbleConsultancy h3 {
+    visibility: hidden; }
+
+.bubbleRecuitment {
+  background-image: url("../images/profile/recruitment.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .bubbleRecuitment h3 {
+    visibility: hidden; }
+
+.bubbleTeaching {
+  background-image: url("../images/profile/teaching.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .bubbleTeaching h3 {
+    visibility: hidden; }
+
+.bubbleWriting {
+  background-image: url("../images/profile/writing.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .bubbleWriting h3 {
+    visibility: hidden; }
+
+.bubbleOther {
+  background-image: url("../images/profile/other.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .bubbleOther h3 {
+    visibility: hidden; }
+
 .bubbleStatement {
-  border: solid 2px #00B2B2;
+  border: solid 2px #00b2bb;
   background: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; }
 
 .bubbleProfile {
-  background-image: url("../images/profile/profilePhoto.jpg");
+  background-image: url("../images/profile/about.png");
   background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: transparent; }
+  background-repeat: no-repeat; }
   .bubbleProfile h3 {
-    color: white;
-    visibility: visible;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out; }
-  .bubbleProfile:hover h3 {
-    visibility: visible;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out; }
+    visibility: hidden; }
+
+.bubbleEmail {
+  background-image: url("../images/profile/email2.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .bubbleEmail h3 {
+    visibility: hidden; }
+  @media (max-width: 767px) {
+    .bubbleEmail {
+      background-image: url("../images/profile/email.png"); } }
+
+.bubbleLinkedIn {
+  background-image: url("../images/profile/linkedin2.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .bubbleLinkedIn h3 {
+    visibility: hidden; }
+  @media (max-width: 767px) {
+    .bubbleLinkedIn {
+      background-image: url("../images/profile/linkedin.png"); } }
+
+.bubbleContact {
+  background-image: url("../images/profile/contact2.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .bubbleContact h3 {
+    visibility: hidden; }
+  @media (max-width: 767px) {
+    .bubbleContact {
+      background-image: url("../images/profile/contact.png"); } }
 
 @media (max-width: 319px) {
   .flex-container {
@@ -192,7 +245,7 @@ body {
 
   .logo {
     display: inline-block;
-    border-left: 2px solid #2F2B2D;
+    border-left: 0px solid #2F2B2D;
     padding-left: 4px;
     text-align: left; }
 
@@ -256,7 +309,7 @@ body {
 
   .logo {
     display: inline-block;
-    border-left: 2px solid #00B2B2;
+    border-left: 0px solid #00b2bb;
     padding-left: 4px;
     text-align: left; }
 
@@ -310,7 +363,7 @@ body {
 
   .logo {
     display: inline-block;
-    border-left: 2px solid #00B2B2;
+    border-left: 0px solid #00b2bb;
     padding-left: 5px;
     text-align: left; }
 
@@ -435,8 +488,8 @@ body {
     min-width: 147px; }
 
   .bubbleOne {
-    top: 80px;
-    left: 320px;
+    top: 260px;
+    left: 40px;
     min-height: 147px;
     min-width: 147px; }
 
@@ -453,10 +506,22 @@ body {
     min-width: 147px; }
 
   .bubbleFour {
-    top: 260px;
-    left: 40px;
+    top: 80px;
+    left: 320px;
     min-height: 147px;
     min-width: 147px; }
+
+  .bubbleFive {
+    top: 80px;
+    left: 480px;
+    min-height: 147px;
+    min-width: 147px; }
+
+  .bubbleSix {
+    top: 750px;
+    left: 509px;
+    min-height: 88px;
+    min-width: 88px; }
 
   .bubbleEmail {
     top: 670px;
@@ -472,7 +537,7 @@ body {
 
   .logo {
     display: inline-block;
-    border-left: 2px solid #00B2B2;
+    border-left: 0px solid #00b2bb;
     padding-left: 6px;
     text-align: left; }
 
@@ -564,28 +629,40 @@ body {
     min-width: 132px; }
 
   .bubbleOne {
-    top: 290px;
+    top: 140px;
     left: 140px;
     min-height: 132px;
     min-width: 132px; }
 
   .bubbleTwo {
+    top: 290px;
+    left: 140px;
+    min-height: 132px;
+    min-width: 132px; }
+
+  .bubbleThree {
     top: 405px;
     left: 240px;
     min-height: 132px;
     min-width: 132px; }
 
-  .bubbleThree {
+  .bubbleFour {
     top: 424px;
     left: 390px;
     min-height: 132px;
     min-width: 132px; }
 
-  .bubbleFour {
+  .bubbleFive {
     top: 547px;
     left: 295px;
     min-height: 132px;
     min-width: 132px; }
+
+  .bubbleSix {
+    top: 180px;
+    left: 750px;
+    min-height: 78px;
+    min-width: 78px; }
 
   .bubbleEmail {
     top: 85px;
@@ -601,7 +678,7 @@ body {
 
   .logo {
     display: inline-block;
-    border-left: 2px solid #00B2B2;
+    border-left: 0px solid #00b2bb;
     padding-left: 5px;
     text-align: left; }
 
@@ -693,28 +770,40 @@ body {
     min-width: 184px; }
 
   .bubbleOne {
+    top: 124px;
+    left: 120px;
+    min-height: 184px;
+    min-width: 184px; }
+
+  .bubbleTwo {
     top: 330px;
     left: 126px;
     min-height: 184px;
     min-width: 184px; }
 
-  .bubbleTwo {
+  .bubbleThree {
     top: 484px;
     left: 270px;
     min-height: 184px;
     min-width: 184px; }
 
-  .bubbleThree {
+  .bubbleFour {
     top: 508px;
     left: 476px;
     min-height: 184px;
     min-width: 184px; }
 
-  .bubbleFour {
+  .bubbleFive {
     top: 680px;
     left: 355px;
     min-height: 184px;
     min-width: 184px; }
+
+  .bubbleSix {
+    top: 170px;
+    left: 960px;
+    min-height: 110px;
+    min-width: 110px; }
 
   .bubbleEmail {
     top: 42px;
@@ -730,7 +819,7 @@ body {
 
   .logo {
     display: inline-block;
-    border-left: 2px solid #00B2B2;
+    border-left: 0px solid #00b2bb;
     padding-left: 6px;
     text-align: left; }
 

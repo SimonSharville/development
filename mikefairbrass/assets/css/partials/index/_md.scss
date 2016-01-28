@@ -39,17 +39,17 @@
 
 .bubbleProfile{ top:518px; left:520px; min-height:147px; min-width:147px; }
 
-.bubbleOne{ top:80px; left:320px; min-height:147px; min-width:147px; }
+.bubbleOne{top:260px; left:40px;  min-height:147px; min-width:147px; }
 
 .bubbleTwo{ top:195px; left:195px; min-height:147px; min-width:147px; }
 
 .bubbleThree{ top:360px; left:175px; min-height:147px; min-width:147px; }
 
-.bubbleFour{top:260px; left:40px;  min-height:147px; min-width:147px; }
+.bubbleFour{ top:80px; left:320px; min-height:147px; min-width:147px; }
 
-// .bubbleFive{top:605px; left:60px;  min-height:88px; min-width:88px; }
+.bubbleFive{top:80px; left:480px;  min-height:147px; min-width:147px; }
 
-// .bubbleSix{ top:387px; left:209px; min-height:112px; min-width:112px; }
+.bubbleSix{ top:750px; left:509px; min-height:88px; min-width:88px; }
 
 // .bubbleSeven{top:150px; left:520px;  min-height:88px; min-width:88px; }
 
@@ -67,7 +67,7 @@
 
 .logo{
   display:inline-block;
-  border-left: 2px solid $Profile;
+  border-left: 0px solid $Profile;
   padding-left:6px;
   text-align:left;
 

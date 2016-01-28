@@ -39,17 +39,17 @@
 
 .bubbleProfile{ top:74px; left:674px; min-height:184px; min-width:184px; }
 
-.bubbleOne{ top:330px; left:126px; min-height:184px; min-width:184px; }
+.bubbleOne{top:124px; left:120px;  min-height:184px; min-width:184px; }
 
-.bubbleTwo{ top:484px; left:270px; min-height:184px; min-width:184px; }
+.bubbleTwo{ top:330px; left:126px; min-height:184px; min-width:184px; }
 
-.bubbleThree{ top:508px; left:476px; min-height:184px; min-width:184px; }
+.bubbleThree{ top:484px; left:270px; min-height:184px; min-width:184px; }
 
-.bubbleFour{top:680px; left:355px;  min-height:184px; min-width:184px; }
+.bubbleFour{ top:508px; left:476px; min-height:184px; min-width:184px; }
 
-// .bubbleFive{top:724px; left:780px;  min-height:110px; min-width:110px; }
+.bubbleFive{top:680px; left:355px;  min-height:184px; min-width:184px; }
 
-// .bubbleSix{ top:508px; left:510px; min-height:139px; min-width:139px; }
+.bubbleSix{ top:170px; left:960px; min-height:110px; min-width:110px; }
 
 // .bubbleSeven{top:271px; left:185px;  min-height:110px; min-width:110px; }
 
@@ -68,7 +68,7 @@
 
 .logo{
   display:inline-block;
-  border-left: 2px solid $Profile;
+  border-left: 0px solid $Profile;
   padding-left:6px;
   text-align:left;
 

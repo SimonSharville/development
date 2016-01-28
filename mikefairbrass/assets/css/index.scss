@@ -103,11 +103,11 @@ body {
   -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  // -webkit-transition: all 0.5s ease-out;
+  // -moz-transition: all 0.5s ease-out;
+  // -ms-transition: all 0.5s ease-out;
+  // -o-transition: all 0.5s ease-out;
+  // transition: all 0.5s ease-out;
 
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -116,6 +116,48 @@ body {
   transform: scale(1.05);
 
   
+}
+
+.bubbleLogo{
+  background-image: url("../images/profile/logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h1{visibility:hidden;}
+}
+
+.bubbleConsultancy{
+  background-image: url("../images/profile/consultancy.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h3{visibility:hidden;}
+}
+
+.bubbleRecuitment{
+  background-image: url("../images/profile/recruitment.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h3{visibility:hidden;}
+}
+
+.bubbleTeaching{
+  background-image: url("../images/profile/teaching.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h3{visibility:hidden;}
+}
+
+.bubbleWriting{
+  background-image: url("../images/profile/writing.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h3{visibility:hidden;}
+}
+
+.bubbleOther{
+  background-image: url("../images/profile/other.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h3{visibility:hidden;}
 }
 
 .bubbleStatement{
@@ -127,32 +169,39 @@ body {
 }
 
 .bubbleProfile{
-  background-image: url("../images/profile/profilePhoto.jpg");
+  background-image: url("../images/profile/about.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color:transparent;
-  
-
-  h3{ 
-    color:white; 
-    visibility:visible;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-  }
-  &:hover{ 
-    h3{ 
-      visibility:visible;
-      -webkit-transition: all 0.5s ease-out;
-      -moz-transition: all 0.5s ease-out;
-      -ms-transition: all 0.5s ease-out;
-      -o-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out;
-    }
-  }
+  h3{visibility:hidden;}
 }
+
+.bubbleEmail{
+  background-image: url("../images/profile/email2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h3{visibility:hidden;}
+  @media (max-width:767px) // smaller than iPad
+    { background-image: url("../images/profile/email.png"); }
+}
+
+.bubbleLinkedIn{
+  background-image: url("../images/profile/linkedin2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h3{visibility:hidden;}
+  @media (max-width:767px) // smaller than iPad
+    { background-image: url("../images/profile/linkedin.png"); }
+}
+
+.bubbleContact{
+  background-image: url("../images/profile/contact2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h3{visibility:hidden;}
+  @media (max-width:767px) // smaller than iPad
+    { background-image: url("../images/profile/contact.png"); }
+}
+
 
 // WIP RESPONSIVE
 
