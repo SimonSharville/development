@@ -795,9 +795,10 @@ body {
     font-size: 36px;
     font-weight: normal;
     letter-spacing: 0.5px;
-    border: 1px dotted green; }
-    .bubblePrint html[data-useragent*='MSIE 10.0'] h3, .bubbleWeb html[data-useragent*='MSIE 10.0'] h3, .bubbleBranding html[data-useragent*='MSIE 10.0'] h3, .bubbleProfile html[data-useragent*='MSIE 10.0'] h3 {
-      color: blue; }
+    border: 1px dotted yellow; }
+    .bubblePrint html[data-useragent*='MSIE 11.0'] h3, .bubbleWeb html[data-useragent*='MSIE 11.0'] h3, .bubbleBranding html[data-useragent*='MSIE 11.0'] h3, .bubbleProfile html[data-useragent*='MSIE 11.0'] h3 {
+      color: blue;
+      padding-top: 50px; }
 
   .bubblePlayground, .bubbleTshirts, .bubbleClients {
     font-size: 30px;
