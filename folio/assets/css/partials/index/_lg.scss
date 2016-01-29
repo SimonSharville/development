@@ -102,19 +102,20 @@
   font-size:36px;
   font-weight:normal;
   letter-spacing:0.5px;
-  border:1px dotted yellow;
+  border:1px dotted red;
   // @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   // /* IE10+ CSS styles go here */
   // h3{
   //   padding-top:50px;
   // }
-  html[data-useragent*='MSIE 11.0'] h3 {
+    // }
+  }
+
+  html[data-useragent*='MSIE 11.0'] .bubblePrint {
   color: blue; padding-top:50px;
 }
-  // }
-  
 
-}
+
 
 .bubblePlayground, .bubbleTshirts, .bubbleClients {
   font-size:30px;
