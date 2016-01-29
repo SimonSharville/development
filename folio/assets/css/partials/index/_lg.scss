@@ -102,10 +102,11 @@
   font-size:36px;
   font-weight:normal;
   letter-spacing:0.5px;
+  border:1px dotted red;
   @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   /* IE10+ CSS styles go here */
   h3{
-    // position:absolute;
+    position:absolute;
   top:90px;
   left:30px;
   color:red;

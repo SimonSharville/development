@@ -794,11 +794,13 @@ body {
   .bubblePrint, .bubbleWeb, .bubbleBranding, .bubbleProfile {
     font-size: 36px;
     font-weight: normal;
-    letter-spacing: 0.5px; } }
+    letter-spacing: 0.5px;
+    border: 1px dotted red; } }
   @media all and (min-width: 1024px) and (-ms-high-contrast: none), (min-width: 1024px) and (-ms-high-contrast: active) {
     .bubblePrint, .bubbleWeb, .bubbleBranding, .bubbleProfile {
       /* IE10+ CSS styles go here */ }
       .bubblePrint h3, .bubbleWeb h3, .bubbleBranding h3, .bubbleProfile h3 {
+        position: absolute;
         top: 90px;
         left: 30px;
         color: red; } }
