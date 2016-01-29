@@ -11,6 +11,21 @@ html, body {
   height: 100%; 
 }
 
+/* IE8 "nuclear option"
+-------------------------------------------------------------- */
+
+#low-ie body>* {
+  display: none !important;
+}
+
+html#low-ie body>div.low-ie-message {
+  display:block !important;
+  position: absolute;
+  top:4px;
+  left:10px;
+}
+// ==============================================================
+
 body {
   background-color: $Grey01;
 }
