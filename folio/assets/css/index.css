@@ -795,14 +795,10 @@ body {
     font-size: 36px;
     font-weight: normal;
     letter-spacing: 0.5px;
-    border: 1px dotted red; } }
-  @media all and (min-width: 1024px) and (-ms-high-contrast: none), (min-width: 1024px) and (-ms-high-contrast: active) {
-    .bubblePrint, .bubbleWeb, .bubbleBranding, .bubbleProfile {
-      /* IE10+ CSS styles go here */ }
-      .bubblePrint h3, .bubbleWeb h3, .bubbleBranding h3, .bubbleProfile h3 {
-        padding-top: 50px; } }
+    border: 1px dotted green; }
+    .bubblePrint html[data-useragent*='MSIE 10.0'] h3, .bubbleWeb html[data-useragent*='MSIE 10.0'] h3, .bubbleBranding html[data-useragent*='MSIE 10.0'] h3, .bubbleProfile html[data-useragent*='MSIE 10.0'] h3 {
+      color: blue; }
 
-@media (min-width: 1024px) {
   .bubblePlayground, .bubbleTshirts, .bubbleClients {
     font-size: 30px;
     font-weight: normal;
