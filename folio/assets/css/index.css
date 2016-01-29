@@ -939,7 +939,9 @@ body {
     display: inline-block;
     border-left: 2px solid #DC7321;
     padding-left: 6px;
-    text-align: left; }
+    text-align: left;
+    top: 100px;
+    left: 100px; }
 
   .logo h1 {
     top: 0px;
