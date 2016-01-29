@@ -794,20 +794,8 @@ body {
   .bubblePrint, .bubbleWeb, .bubbleBranding, .bubbleProfile {
     font-size: 36px;
     font-weight: normal;
-    letter-spacing: 0.5px;
-    border: 2px dotted red; } }
-@media all and (min-width: 1024px) and (-ms-high-contrast: none) {
-  h3 {
-    color: green;
-    padding-top: 50px; }
+    letter-spacing: 0.5px; }
 
-  /* IE10 */
-  *::-ms-backdrop, h3 {
-    color: red;
-    padding-top: 50px; }
-
-  /* IE11 */ }
-@media (min-width: 1024px) {
   .bubblePlayground, .bubbleTshirts, .bubbleClients {
     font-size: 30px;
     font-weight: normal;
