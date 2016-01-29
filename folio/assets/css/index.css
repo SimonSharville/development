@@ -800,10 +800,7 @@ body {
     .bubblePrint, .bubbleWeb, .bubbleBranding, .bubbleProfile {
       /* IE10+ CSS styles go here */ }
       .bubblePrint h3, .bubbleWeb h3, .bubbleBranding h3, .bubbleProfile h3 {
-        position: absolute;
-        top: 90px;
-        left: 30px;
-        color: red; } }
+        padding-top: 50px; } }
 
 @media (min-width: 1024px) {
   .bubblePlayground, .bubbleTshirts, .bubbleClients {
