@@ -125,6 +125,9 @@ body {
   overflow: auto; }
 
 .flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: -webkit-flex;
   display: flex; }
 
@@ -675,14 +678,14 @@ body {
   .bubbleLogo {
     top: 145px;
     left: 278px;
-    min-height: 262px;
-    min-width: 262px; }
+    height: 262px;
+    width: 262px; }
 
   .bubbleStatement {
     top: 245px;
     left: 531px;
-    min-height: 318px;
-    min-width: 318px; }
+    height: 318px;
+    width: 318px; }
 
   .bubbleProfile {
     top: 107px;
@@ -845,14 +848,14 @@ body {
   .bubbleLogo {
     top: 126px;
     left: 316px;
-    min-height: 364px;
-    min-width: 364px; }
+    height: 364px;
+    width: 364px; }
 
   .bubbleStatement {
     top: 265px;
     left: 667px;
-    min-height: 442px;
-    min-width: 442px; }
+    height: 442px;
+    width: 442px; }
 
   .bubbleProfile {
     top: 74px;
