@@ -13,6 +13,7 @@ html, body {
 
 /* IE8 "nuclear option"
 -------------------------------------------------------------- */
+//http://pressupinc.com/blog/2014/10/dealing-ie-8-nuclear-option/
 
 #low-ie body>* {
   display: none !important;
@@ -31,6 +32,7 @@ html#low-ie body>div.low-ie-message {
   line-height: 1.5em;
   padding-bottom: 0.5em;
   a:link{ color:white}
+  a:visited{ color:white}
 }
 // ==============================================================
 

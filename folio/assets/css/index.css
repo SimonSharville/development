@@ -127,6 +127,8 @@ html#low-ie body > div.low-ie-message {
   padding-bottom: 0.5em; }
   html#low-ie body > div.low-ie-message a:link {
     color: white; }
+  html#low-ie body > div.low-ie-message a:visited {
+    color: white; }
 
 body {
   background-color: #2F2B2D; }
