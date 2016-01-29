@@ -795,14 +795,14 @@ body {
     font-size: 36px;
     font-weight: normal;
     letter-spacing: 0.5px;
-    border: 2px dotted blue; } }
+    border: 2px dotted red; } }
 @media all and (min-width: 1024px) and (-ms-high-contrast: none) {
-  .bubblePrint {
+  h3 {
     color: green;
     padding-top: 50px; }
 
   /* IE10 */
-  *::-ms-backdrop, .bubblePrint {
+  *::-ms-backdrop, h3 {
     color: red;
     padding-top: 50px; }
 

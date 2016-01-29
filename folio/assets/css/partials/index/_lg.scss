@@ -102,13 +102,13 @@
   font-size:36px;
   font-weight:normal;
   letter-spacing:0.5px;
-  border:2px dotted blue;
+  border:2px dotted red;
   }
 
   @media all and (-ms-high-contrast:none)
      {
-     .bubblePrint { color: green; padding-top:50px; } /* IE10 */
-     *::-ms-backdrop, .bubblePrint { color: red; padding-top:50px; } /* IE11 */
+     h3 { color: green; padding-top:50px; } /* IE10 */
+     *::-ms-backdrop, h3 { color: red; padding-top:50px; } /* IE11 */
      }
 
 
