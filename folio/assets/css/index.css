@@ -795,12 +795,19 @@ body {
     font-size: 36px;
     font-weight: normal;
     letter-spacing: 0.5px;
-    border: 1px dotted red; }
-
-  html[data-useragent*='MSIE 11.0'] .bubblePrint {
-    color: blue;
+    border: 2px dotted blue; } }
+@media all and (min-width: 1024px) and (-ms-high-contrast: none) {
+  .bubblePrint {
+    color: green;
     padding-top: 50px; }
 
+  /* IE10 */
+  *::-ms-backdrop, .bubblePrint {
+    color: red;
+    padding-top: 50px; }
+
+  /* IE11 */ }
+@media (min-width: 1024px) {
   .bubblePlayground, .bubbleTshirts, .bubbleClients {
     font-size: 30px;
     font-weight: normal;
