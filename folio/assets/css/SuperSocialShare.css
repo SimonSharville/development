@@ -60,8 +60,8 @@
   background-repeat: no-repeat;
   background-position: 0px 0px;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 9px;
+  left: 9px;
   z-index: 1;
   cursor: pointer;
   text-indent: -9999px;
@@ -250,10 +250,12 @@
  *
  */
 .supersocialshare.bubble.sss-simon .sb_main {
-  background-image: url(../images/ssshare/simon/bubble_share_core.png); }
+  background-image: url(../images/ssshare/simon/bubble_share_core.png);
+  background-size: 40px 40px; }
 
 .supersocialshare.bubble.sss-simon .sb_network_button.facebook {
-  background-image: url(../images/ssshare/simon/bubble_facebook_share_button.png); }
+  background-image: url(../images/ssshare/simon/bubble_facebook_share_button.png);
+  background-size: 40px 40px; }
 
 .supersocialshare.bubble.sss-simon .sb_network_button.linkedin {
   background-image: url(../images/ssshare/simon/bubble_linkedin_share_button.png); }

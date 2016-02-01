@@ -1,4 +1,4 @@
-@import "../stylesheets/partials/core-elements";
+@import "../css/partials/core-elements";
 
 
 /*
@@ -9,8 +9,8 @@
 
 .supersocialshare.bubble {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     position: relative;
     z-index: 1;
     top: 0px;
@@ -20,8 +20,8 @@
 
 .supersocialshare.bubble .sb_main {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-position: 0px 0px;
     position: absolute;
     top: 0;
@@ -29,7 +29,7 @@
     z-index: 2;
     cursor: pointer;
     text-indent: -9999px;
-    background-size: 60px 60px;
+    background-size: 40px 40px;
     background-color: $Grey08;
     border-radius:50%;
 }
@@ -46,8 +46,8 @@
     background-repeat: no-repeat;
     background-position: 0px 0px;
     position: absolute;
-    top: 9px;
-    left: 9px;
+    top: 0px;
+    left: 0px;
     z-index: 1;
     cursor: pointer;
     text-indent: -9999px;

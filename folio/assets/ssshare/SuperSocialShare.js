@@ -24,7 +24,7 @@ if(typeof console == 'undefined') {
             theme = 'flat',
             orientation = 'arc',
             angle = 45, 
-            radius = 80,
+            radius = 60,
             gap = 50,
             share_title = '',
             open = 'false',

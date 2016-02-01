@@ -181,9 +181,12 @@ html, body {
 .openSidebar {
   background-color: #D7D2D2;
   border-radius: 50%;
-  content: url("../images/global/arrow-right.png");
+  background-image: url("../images/global/arrow-right.png");
+  background-size: 40px 40px;
   background-repeat: no-repeat;
-  width: 40px; }
+  width: 40px;
+  height: 40px;
+  z-index: 9999; }
   .openSidebar:hover {
     background-color: #DC7321; }
   .sidenav-active .openSidebar {
@@ -277,9 +280,11 @@ nav footer {
   bottom: 0px;
   background-color: #D7D2D2;
   border-radius: 50%;
-  content: url("../images/global/arrow-up.png");
+  background-image: url("../images/global/arrow-up.png");
+  background-size: 40px 40px;
   background-repeat: no-repeat;
   width: 40px;
+  height: 40px;
   margin: 15px 10px;
   display: none; }
   .topButton:hover {
@@ -450,7 +455,7 @@ aside {
 
 #sharelinks {
   display: inline-block;
-  height: 60px;
+  height: 40px;
   position: relative;
   z-index: 1;
   top: -80px;
@@ -459,11 +464,11 @@ aside {
 
 #email {
   display: inline-block;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: url("../images/ssshare/simon/bubble_email_share_button.png");
-  background-size: 60px 60px;
+  background-size: 40px 40px;
   background-repeat: no-repeat;
   background-color: #D7D2D2; }
   #email:hover {
@@ -471,11 +476,11 @@ aside {
 
 #linkedIn {
   display: inline-block;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: url("../images/ssshare/simon/bubble_linkedin_share_button.png");
-  background-size: 60px 60px;
+  background-size: 40px 40px;
   background-repeat: no-repeat;
   background-color: #D7D2D2; }
   #linkedIn:hover {
