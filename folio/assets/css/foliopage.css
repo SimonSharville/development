@@ -345,6 +345,14 @@ aside {
     min-width: 102.5%;
     margin-left: -10px; }
 
+  .imgZoom3 {
+    min-width: 103%;
+    margin-left: -12px; }
+
+  .imgZoom4 {
+    min-width: 104%;
+    margin-left: -15px; }
+
   .imgZoom5 {
     min-width: 105%;
     margin-left: -20px; } }
