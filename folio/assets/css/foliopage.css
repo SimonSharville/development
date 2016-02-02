@@ -501,3 +501,10 @@ aside {
   max-width: 300px;
   border-radius: 50%;
   margin: -30px 0px 0px 0px; }
+
+article h2 a:link {
+  color: #837C7D; }
+article h2 a:visited {
+  color: #837C7D; }
+article h2 a:hover {
+  color: #DC7321; }

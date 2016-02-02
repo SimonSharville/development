@@ -294,4 +294,12 @@ box-shadow: 0px 20px 2px -5px rgba(0,0,0,0.05), 0px 2px 2px 5px rgba(0,0,0,0.05)
     margin:-30px 0px 0px 0px;
 }
 
+article{
+  h2 a:link{ color: $Grey05; }
+  h2 a:visited{ color: $Grey05; }
+  h2 a:hover{ color: $Orange; }
+}
+
+
+
 
