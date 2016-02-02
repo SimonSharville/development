@@ -1,6 +1,6 @@
 @import "partials/reset";
 @import "partials/core-elements";
-@import "partials/typography";
+// @import "partials/typography";
 
 
 
@@ -25,6 +25,7 @@ html, body{  margin: 0; }
 
 // ====================================================================================
 
+@import "partials/folio/folio-typography";
 @import "partials/folio/folio-slide";
 @import "partials/folio/folio-content";
 
