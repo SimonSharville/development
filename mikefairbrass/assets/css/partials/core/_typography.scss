@@ -9,11 +9,14 @@ h1 {
   color: $Profile;
   font-size: 3em;
   margin-left:-3px!IMPORTANT;
+  padding-bottom: 0.25em;
 }
 
 h2 {
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-size: 2em;
+  line-height: 1em;
+  padding-bottom: 0.5em;
   font-weight:400;
   margin-left:-1px!IMPORTANT;
 }
@@ -23,6 +26,7 @@ h3 {
   font-size: 1.5em;
   padding-top: 0.2em;
   font-weight:400;
+  padding-bottom: 0.25em;
 }
 
 h4 {
@@ -41,14 +45,15 @@ p {
   padding-bottom: 0.5em;
 }
 
+i{
+    font-style: italic;
+  }
+
+
 h1, h2, h3, p {
   margin: 0;
 }
 
-
-h2{
-  margin-bottom: -0.1em;
-}
 
 strong{ font-weight:700;}
 

@@ -55,13 +55,16 @@ h1 {
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: -2px;
-  color: #00B2B2;
+  color: #00b2bb;
   font-size: 3em;
-  margin-left: -3px !important; }
+  margin-left: -3px !important;
+  padding-bottom: 0.25em; }
 
 h2 {
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-size: 2em;
+  line-height: 1em;
+  padding-bottom: 0.5em;
   font-weight: 400;
   margin-left: -1px !important; }
 
@@ -69,7 +72,8 @@ h3 {
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   padding-top: 0.2em;
-  font-weight: 400; }
+  font-weight: 400;
+  padding-bottom: 0.25em; }
 
 h4 {
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
@@ -85,11 +89,11 @@ p {
   line-height: 1.4em;
   padding-bottom: 0.5em; }
 
+i {
+  font-style: italic; }
+
 h1, h2, h3, p {
   margin: 0; }
-
-h2 {
-  margin-bottom: -0.1em; }
 
 strong {
   font-weight: 700; }
@@ -120,7 +124,7 @@ html, body {
   margin: 15px 10px;
   display: none; }
   .smoothScroll:hover {
-    background-color: #00B2B2; }
+    background-color: #00b2bb; }
 
 .main {
   min-height: 100vh; }
@@ -136,7 +140,7 @@ html, body {
   margin: 15px 10px;
   display: none; }
   .topButton:hover {
-    background-color: #00B2B2; }
+    background-color: #00b2bb; }
 
 header {
   margin: 0 auto;
@@ -398,7 +402,7 @@ header {
   background-repeat: no-repeat;
   width: 40px; }
   .openSidebar:hover {
-    background-color: #00B2B2; }
+    background-color: #00b2bb; }
   .sidenav-active .openSidebar {
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
