@@ -239,7 +239,7 @@ if(typeof console == 'undefined') {
         
         var supported_networks = {
             'facebook':{
-                'url':'http://www.facebook.com/sharer.php?u=[URL]',
+                'url':'http://www.facebook.com/sharer.php?url=[URL]',
                 'name':'Facebook',
                 'window':'width=500,height=311,scrollbars=no'
             },
