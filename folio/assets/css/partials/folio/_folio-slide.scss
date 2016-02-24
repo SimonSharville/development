@@ -150,6 +150,11 @@ nav footer {
     
   }
 
+#statCounter{
+  visibility: hidden;
+}
+
+
 //When sidenav is open:
 //1. Nudge everything to the side
 nav, .hamburger, .cover {

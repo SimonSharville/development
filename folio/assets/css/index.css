@@ -143,7 +143,9 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  overflow: auto; }
+  overflow: auto;
+  border: 1px dotted green;
+  bottom: 40px; }
 
 .flex-container {
   display: -webkit-box;
@@ -232,6 +234,9 @@ body {
     -ms-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
+
+#indexFooter {
+  visibility: hidden; }
 
 @media (max-width: 319px) {
   .flex-container {

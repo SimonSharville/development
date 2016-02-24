@@ -274,6 +274,9 @@ nav footer {
     font-weight: 400;
     color: white; }
 
+#statCounter {
+  visibility: hidden; }
+
 .sidenav-active nav, .sidenav-active .hamburger, .sidenav-active .cover {
   transform: translateX(192px); }
 

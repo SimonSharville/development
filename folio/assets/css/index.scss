@@ -49,11 +49,12 @@ body {
 
 .flex-container {
   height:100%;
-  // border: 1px dotted yellow;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   overflow: auto;
+  border: 1px dotted green;
+  bottom: 40px;
   }
 
 .flex-container{            // -webkit-  is for Safari
@@ -82,7 +83,6 @@ body {
 // ========================================
 
 .bubblewrap{
-  // border: 1px dotted green;
 }
 
 .bubble{
@@ -193,6 +193,10 @@ body {
       transition: all 0.5s ease-out;
     }
   }
+}
+
+#indexFooter{
+  visibility: hidden;
 }
 
 // WIP RESPONSIVE
