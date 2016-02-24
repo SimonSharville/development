@@ -157,8 +157,7 @@ article {
   display: inline-block;
   text-align: left; }
   article img {
-    width: 100%;
-    max-width: 900px;
+    max-width: 100%;
     margin-top: 0.5em;
     z-index: -2000; }
 
@@ -169,7 +168,6 @@ aside {
   line-height: 1.25em;
   padding: 10px 0;
   margin-bottom: 2em;
-  border-bottom: 1px solid #D7D2D2;
   letter-spacing: 0.5px; }
 
 @media (min-width: 768px) {
@@ -240,6 +238,19 @@ aside {
     color: #2F2B2D;
     background-color: #ff7700; }
 
+.DLImage {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 150px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25), 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25), 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25), 0px 0px 5px 0px rgba(0, 0, 0, 0.05); }
+
 #divide-grey-full {
   min-height: 6px;
   min-width: 100%;
@@ -271,13 +282,23 @@ aside {
   margin-bottom: 20px;
   text-align: left; }
 
-#submenu li {
+#submenu ul {
   display: -webkit-inline-flex;
   display: inline-flex;
   -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
+  align-items: center; }
+
+#submenu li {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
+  text-align: center;
+  margin-right: 10px;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -288,6 +309,9 @@ aside {
   #submenu li:hover {
     color: #2F2B2D;
     background-color: #ff7700; }
+
+.twoLine li {
+  margin-top: -20px; }
 
 #sharelinks {
   display: inline-block;
