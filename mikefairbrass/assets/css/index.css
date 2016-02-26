@@ -173,11 +173,15 @@ body {
     visibility: hidden; }
 
 .bubbleStatement {
-  border: solid 2px #00b2bb;
-  background: none;
+  background: white;
+  background-image: url("../images/profile/statement.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; }
+  .bubbleStatement h2 {
+    visibility: hidden; }
 
 .bubbleProfile {
   background-image: url("../images/profile/about.png");
@@ -226,6 +230,7 @@ body {
     align-items: center; }
 
   .bubblewrap {
+    min-height: 1700px;
     display: -webkit-inline-flex;
     /* Safari */
     display: inline-flex;
@@ -235,8 +240,8 @@ body {
     padding-bottom: 20px; }
 
   .bubble {
-    min-height: 150px;
-    min-width: 150px;
+    height: 150px;
+    width: 150px;
     margin-top: 20px;
     margin-left: 0px; }
 
@@ -290,6 +295,7 @@ body {
     align-items: center; }
 
   .bubblewrap {
+    min-height: 3000px;
     display: -webkit-inline-flex;
     /* Safari */
     display: inline-flex;
@@ -299,8 +305,8 @@ body {
     padding-bottom: 20px; }
 
   .bubble {
-    min-height: 250px;
-    min-width: 250px;
+    height: 250px;
+    width: 250px;
     margin-top: 20px;
     margin-left: 0px; }
 
@@ -343,7 +349,7 @@ body {
     align-items: center; }
 
   .bubblewrap {
-    height: 200px;
+    min-height: 200px;
     display: -webkit-inline-flex;
     /* Safari */
     display: inline-flex;
@@ -353,8 +359,8 @@ body {
     padding-bottom: 0px; }
 
   .bubble {
-    min-height: 200px;
-    min-width: 200px;
+    height: 200px;
+    width: 200px;
     margin-top: 0px;
     margin-left: 20px; }
 
@@ -407,8 +413,8 @@ body {
     padding-bottom: 20px; }
 
   .bubble {
-    min-height: 250px;
-    min-width: 250px;
+    height: 250px;
+    width: 250px;
     margin-top: 20px;
     margin-left: 0px; }
 
@@ -434,8 +440,8 @@ body {
     padding-bottom: 0px; }
 
   .bubble {
-    min-height: 200px;
-    min-width: 200px;
+    height: 200px;
+    width: 200px;
     margin-top: 0px;
     margin-left: 20px; }
 
@@ -464,76 +470,76 @@ body {
 
   .bubble {
     position: absolute;
-    min-height: 250px;
-    min-width: 250px;
+    height: 250px;
+    width: 250px;
     margin-top: 20px;
     margin-left: 0px; }
 
   .bubbleLogo {
     top: 233px;
     left: 335px;
-    min-height: 290px;
-    min-width: 290px; }
+    height: 290px;
+    width: 290px; }
 
   .bubbleStatement {
     top: 513px;
     left: 162px;
-    min-height: 353px;
-    min-width: 353px; }
+    height: 353px;
+    width: 353px; }
 
   .bubbleProfile {
     top: 518px;
     left: 520px;
-    min-height: 147px;
-    min-width: 147px; }
+    height: 147px;
+    width: 147px; }
 
   .bubbleOne {
     top: 260px;
     left: 40px;
-    min-height: 147px;
-    min-width: 147px; }
+    height: 147px;
+    width: 147px; }
 
   .bubbleTwo {
     top: 195px;
     left: 195px;
-    min-height: 147px;
-    min-width: 147px; }
+    height: 147px;
+    width: 147px; }
 
   .bubbleThree {
     top: 360px;
     left: 175px;
-    min-height: 147px;
-    min-width: 147px; }
+    height: 147px;
+    width: 147px; }
 
   .bubbleFour {
     top: 80px;
     left: 320px;
-    min-height: 147px;
-    min-width: 147px; }
+    height: 147px;
+    width: 147px; }
 
   .bubbleFive {
     top: 80px;
     left: 480px;
-    min-height: 147px;
-    min-width: 147px; }
+    height: 147px;
+    width: 147px; }
 
   .bubbleSix {
     top: 750px;
     left: 509px;
-    min-height: 88px;
-    min-width: 88px; }
+    height: 88px;
+    width: 88px; }
 
   .bubbleEmail {
     top: 670px;
     left: 605px;
-    min-height: 88px;
-    min-width: 88px; }
+    height: 88px;
+    width: 88px; }
 
   .bubbleLinkedIn {
     top: 678px;
     left: 530px;
-    min-height: 60px;
-    min-width: 60px; }
+    height: 60px;
+    width: 60px; }
 
   .logo {
     display: inline-block;
@@ -605,76 +611,76 @@ body {
 
   .bubble {
     position: absolute;
-    min-height: 250px;
-    min-width: 250px;
+    height: 250px;
+    width: 250px;
     margin-top: 20px;
     margin-left: 0px; }
 
   .bubbleLogo {
     top: 145px;
     left: 278px;
-    min-height: 262px;
-    min-width: 262px; }
+    height: 262px;
+    width: 262px; }
 
   .bubbleStatement {
     top: 245px;
     left: 531px;
-    min-height: 318px;
-    min-width: 318px; }
+    height: 318px;
+    width: 318px; }
 
   .bubbleProfile {
     top: 107px;
     left: 536px;
-    min-height: 132px;
-    min-width: 132px; }
+    height: 132px;
+    width: 132px; }
 
   .bubbleOne {
     top: 140px;
     left: 140px;
-    min-height: 132px;
-    min-width: 132px; }
+    height: 132px;
+    width: 132px; }
 
   .bubbleTwo {
     top: 290px;
     left: 140px;
-    min-height: 132px;
-    min-width: 132px; }
+    height: 132px;
+    width: 132px; }
 
   .bubbleThree {
     top: 405px;
     left: 240px;
-    min-height: 132px;
-    min-width: 132px; }
+    height: 132px;
+    width: 132px; }
 
   .bubbleFour {
     top: 424px;
     left: 390px;
-    min-height: 132px;
-    min-width: 132px; }
+    height: 132px;
+    width: 132px; }
 
   .bubbleFive {
     top: 547px;
     left: 295px;
-    min-height: 132px;
-    min-width: 132px; }
+    height: 132px;
+    width: 132px; }
 
   .bubbleSix {
     top: 180px;
     left: 750px;
-    min-height: 78px;
-    min-width: 78px; }
+    height: 78px;
+    width: 78px; }
 
   .bubbleEmail {
     top: 85px;
     left: 672px;
-    min-height: 78px;
-    min-width: 78px; }
+    height: 78px;
+    width: 78px; }
 
   .bubbleLinkedIn {
     top: 174px;
     left: 678px;
-    min-height: 60px;
-    min-width: 60px; }
+    height: 60px;
+    width: 60px; }
 
   .logo {
     display: inline-block;

@@ -25,31 +25,31 @@
 
 .bubble{
   position:absolute;
-  min-height:250px;
-  min-width:250px;
+  height:250px;
+  width:250px;
   margin-top:20px;
   margin-left:0px;
 }
 
 // Bubble positions =============================================================
 
-.bubbleLogo{ top:233px; left:335px; min-height:290px; min-width:290px; }
+.bubbleLogo{ top:233px; left:335px; height:290px; width:290px; }
 
-.bubbleStatement{ top:513px; left:162px; min-height:353px; min-width:353px; }
+.bubbleStatement{ top:513px; left:162px; height:353px; width:353px; }
 
-.bubbleProfile{ top:518px; left:520px; min-height:147px; min-width:147px; }
+.bubbleProfile{ top:518px; left:520px; height:147px; width:147px; }
 
-.bubbleOne{top:260px; left:40px;  min-height:147px; min-width:147px; }
+.bubbleOne{top:260px; left:40px;  height:147px; width:147px; }
 
-.bubbleTwo{ top:195px; left:195px; min-height:147px; min-width:147px; }
+.bubbleTwo{ top:195px; left:195px; height:147px; width:147px; }
 
-.bubbleThree{ top:360px; left:175px; min-height:147px; min-width:147px; }
+.bubbleThree{ top:360px; left:175px; height:147px; width:147px; }
 
-.bubbleFour{ top:80px; left:320px; min-height:147px; min-width:147px; }
+.bubbleFour{ top:80px; left:320px; height:147px; width:147px; }
 
-.bubbleFive{top:80px; left:480px;  min-height:147px; min-width:147px; }
+.bubbleFive{top:80px; left:480px;  height:147px; width:147px; }
 
-.bubbleSix{ top:750px; left:509px; min-height:88px; min-width:88px; }
+.bubbleSix{ top:750px; left:509px; height:88px; width:88px; }
 
 // .bubbleSeven{top:150px; left:520px;  min-height:88px; min-width:88px; }
 
@@ -57,9 +57,9 @@
 
 // .bubbleNine{top:276px; left:235px;  min-height:88px; min-width:88px; }
 
-.bubbleEmail{top:670px; left:605px;  min-height:88px; min-width:88px; }
+.bubbleEmail{top:670px; left:605px;  height:88px; width:88px; }
 
-.bubbleLinkedIn{top:678px; left:530px;  min-height:60px; min-width:60px;}
+.bubbleLinkedIn{top:678px; left:530px;  height:60px; width:60px;}
 
 
 
