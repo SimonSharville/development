@@ -11,6 +11,7 @@
 }
 
 .bubblewrap{
+  min-height:1700px;
   display:                  -webkit-inline-flex; /* Safari */
   display:                  inline-flex;
   -webkit-flex-flow:        column;
@@ -20,8 +21,8 @@
 }
 
 .bubble{
-  min-height:150px;
-  min-width:150px;
+  height:150px;
+  width:150px;
   margin-top:20px;
   margin-left:0px;
 }
